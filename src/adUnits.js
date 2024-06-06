@@ -1,6 +1,6 @@
 export const adUnitsF =(div_1_sizes, div_2_sizes)=> [
     {
-        code: '/19968336/header-bid-tag-0',
+        code: 'div-1',
         mediaTypes: {
             banner: {
                 sizes: div_1_sizes
@@ -14,7 +14,7 @@ export const adUnitsF =(div_1_sizes, div_2_sizes)=> [
         }]
     },
     {
-        code: '/19968336/header-bid-tag-1',
+        code: 'div-2',
         mediaTypes: {
             banner: {
                 sizes: div_2_sizes
