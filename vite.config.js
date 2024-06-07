@@ -5,8 +5,9 @@ import Inspect from 'vite-plugin-inspect'
 
 export default defineConfig({
     plugins: [
-        Inspect()
-    ],
+        Inspect(),
+       ],
+
     root: './',
     base: '/',
     build: {
@@ -16,7 +17,7 @@ export default defineConfig({
                 entryFileNames: 'assets/wrapper.js',
                 chunkFileNames: 'assets/wrapper-[hash].js',
             }
-        }
+        },
     },
     server: {
         port: 3000,
